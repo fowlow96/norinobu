@@ -1,0 +1,371 @@
+<html>
+<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Bungee+Inline&display=swap" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('textbox').innerHTML=document.getElementById(id).innerHTML}</script>
+<style type="text/css">
+::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #427065;}
+
+.tabs {
+width: 100%;
+height: 100%;
+display: block; 
+}
+
+h1 {
+font-size: 30; 
+color: #427065; 
+font-family: 'Bungee Inline', cursive;
+text-align: center; 
+} 
+
+
+#apnhi,#racials,#equip,#magic {
+display: none;
+}
+
+#container {
+position: absolute;
+top: 0%; 
+left: 0%;
+width: 100%; 
+height: 100%; 
+background: url("https://cdnb.artstation.com/p/assets/images/images/004/781/073/large/dongbiao-lu-snow-mountains-dongbiao-lu-small.jpg?1486221567");
+background-size: 100% 110%; 
+}
+
+#nori {
+position: fixed;
+top: 5%;
+left: 42%;
+width: 16%;
+height: 50%; 
+background-position: center !important; 
+background: url("https://i.imgur.com/ukAjx3k.png"); 
+background-size: 100% 100%;  
+}
+
+#hilt {
+position: fixed; 
+top: 46%;
+left: 47%;
+height: 80%;
+width: 6%;
+background: url("https://i.imgur.com/cSmFEqz.png");
+background-size: 100% 100%;
+}
+
+#tb1 {
+position: fixed;
+top: 10%;
+left: 2%;
+height: 85%;
+width: 35%;
+background: #000000;
+border-radius: 10%;
+border: 3px solid #90a19e; 
+opacity: 80%;
+}
+
+
+#tb2 {
+position: fixed;
+top: 10%;
+left: 2%;
+height: 85%;
+width: 35%;
+background: url("https://i.imgur.com/qMnInxy.gif"); 
+opacity: 100%;
+background-size: 100% 110%; 
+border-radius: 10%;
+border: 3px solid #90a19e; 
+}
+
+#textbox {
+position: fixed;
+top: 13%;
+left: 3.5%;
+height: 80%;
+width: 32.5%;
+font-family: 'Amiri', serif;
+color: #ba9f8c;
+overflow: auto; 
+font-size: 14;
+line-height: 80%; 
+text-indent: 5%; 
+}
+
+#pic1 {
+position: fixed; 
+top: 10%;
+left: 60%;
+height: 40%;
+width: 12%;
+background: url("https://i.imgur.com/n98gC1F.png");
+background-size: 100% 100%; 
+border: 3px solid #90a19e; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic1:hover {
+background: url("https://i.imgur.com/6gGazlc.png");
+background-size: 100% 100%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic2 {
+position: fixed; 
+top: 10%;
+left: 86%;
+height: 40%;
+width: 12%;
+background: url("https://i.imgur.com/W6odcUJ.png");
+background-size: 100% 100%; 
+border: 3px solid #90a19e; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic2:hover {
+background: url("https://i.imgur.com/LtSWIOS.png");
+background-size: 100% 100%; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#gallery {
+position: fixed;
+top: 26%;
+left: 77%;
+height: 8%;
+width: 4%; 
+border-radius: 100%;
+border: 3px solid #90a19e;
+background: url("https://i.imgur.com/jh8mdIG.gif");
+background-size: 100% 100%; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#gallery:hover {
+background: url("https://i.imgur.com/Qn84YO8.gif"); 
+background-size: 100% 100%; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#beam {
+position: fixed;
+top: 28%;
+left: 72%;
+height: 4%;
+width: 14%;
+background: #90a19e;
+}
+
+#option1 {
+position: fixed;
+top: 53%;
+left: 48.2%;
+height: 7%;
+width: 3.5%; 
+background: #d0d9d4;
+border: 3px solid #90a19e; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+color: #427065; 
+}
+
+#anh {
+position: fixed;
+top: 54%;
+left: 52.2%;
+height: 6%;
+width: 0%;
+background: url("https://i.imgur.com/TRqQSP3.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#option1:hover + #anh {
+position: fixed;
+width: 28%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+
+#option2 {
+position: fixed;
+top: 62%;
+left: 48.2%;
+height: 7%;
+width: 3.5%; 
+background: #d0d9d4;
+border: 3px solid #90a19e; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+color: #427065; 
+}
+
+#ra {
+position: fixed;
+top: 63%;
+left: 52.2%;
+height: 6%;
+width: 0%;
+background: url("https://i.imgur.com/RXxmkGw.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#option2:hover + #ra {
+position: fixed;
+width: 22.5%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#option3 {
+position: fixed;
+top: 71%;
+left: 48.2%;
+height: 7%;
+width: 3.5%; 
+background: #d0d9d4;
+border: 3px solid #90a19e;
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+color: #427065; 
+}
+
+#eni {
+position: fixed;
+top: 72%;
+left: 52.2%;
+height: 6%;
+width: 0%;
+background: url("https://i.imgur.com/kdYBF6g.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#option3:hover + #eni {
+position: fixed;
+width: 24%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+
+#option4 {
+position: fixed;
+top: 80%;
+left: 48.2%;
+height: 7%;
+width: 3.5%; 
+background: #d0d9d4;
+border: 3px solid #90a19e; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+color: #427065; 
+}
+
+#ma {
+position: fixed;
+top: 81%;
+left: 52.2%;
+height: 6%;
+width: 0%;
+background: url("https://i.imgur.com/BOr4D9q.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#option4:hover + #ma {
+position: fixed;
+width: 24.3%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.snowflake {
+  color: #BCCCED;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+
+</style> 
+<div id="container"><div id="hilt"></div><div id="nori"></div>
+<div id="tb2"></div><div id="tb1"></div><div id="bubbles"></div>
+<div id="textbox"><h1>Basic Information</h1>This is basic information</div>
+<div id="apnhi"><h1>Appearance</h1>This is appearance Information<h1>History</h1>This is history information</div>
+<div id="racials"><h1>Racial Abilities</h1>This is racial abilities</div>
+<div id="equip"><h1> Equipment & Items</h1>This is equipment information</div>
+<div id="magic"><h1> Magic Abilities</h1>This is magic abilities</div>
+<div id="beam"></div><div id="pic1"></div><div id="pic2"></div><div id="gallery"></div>
+<div id="option1"><span class="tabs" onClick="changeNavigation ('apnhi');">I</span></div><div id="anh"></div><div id="option2"><span class="tabs" onClick="changeNavigation ('racials');">II</span></div><div id="ra"></div><div id="option3"><span class="tabs" onClick="changeNavigation ('equip');">III</span></div><div id="eni"></div><div id="option4"><span class="tabs" onClick="changeNavigation ('magic');">IV</span></div><div id="ma"></div>
+</div>
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❄
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+  <div class="snowflake">
+    ❅
+  </div>
+  <div class="snowflake">
+    ❄
+  </div>
+  <div class="snowflake">
+    ❆
+  </div>
+</div>
+<div id="referencesnodiv">BG: https://www.artstation.com/artwork/0oyVY 
+GIF: https://gfycat.com/dimwittedgenuineleafhopper-snow
+Snowflake: https://gfycat.com/frighteningseriousdartfrog-snowflake
+</div> 
+<embed style="height: 0%; width: 0%;"src="noritheme.mp3" autostart="true" loop="true">
+</html>

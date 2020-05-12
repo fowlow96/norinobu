@@ -1,6 +1,9 @@
 <html>
 <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Bungee+Inline&display=swap" rel="stylesheet">
 <script>function changeNavigation(id) {document.getElementById('textbox').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation2(id) {document.getElementById('picl').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation3(id) {document.getElementById('picr').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation4(id) {document.getElementById('headerboxtext').innerHTML=document.getElementById(id).innerHTML}</script>
 <script language=javascript>document.title=("𝐓𝐡𝐞 𝐅𝐫𝐨𝐳𝐞𝐧 𝐒𝐮𝐤𝐚𝐭𝐬𝐮")</script>
 <script>resizeTo(screen.availWidth, screen.availHeight);</script>
 <style type="text/css">
@@ -14,39 +17,13 @@ height: 100%;
 display: block; 
 }
 
-h1 {
-font-size: 150%; 
-color: #427065; 
-font-family: 'Bungee Inline', cursive;
-text-align: center; 
-line-height: 100%; 
-} 
-
-h2 {
-font-size: 120%; 
-color: #427065; 
-font-family: 'Bungee Inline', cursive;
-text-align: left; 
-line-height: 100%; 
-} 
-
-h3 { 
-color: #427065; 
-top: 1%;
-}
-
-
-#apnhi,#racials,#equip,#magic {
-display: none;
-}
-
 #container {
 position: absolute;
 top: 0%; 
 left: 0%;
 width: 100%; 
 height: 100%; 
-background: #000000;
+background: #888A7C;
 background-size: 100% 110%; 
 }
 
@@ -56,389 +33,659 @@ top: 0%;
 left: 0%;
 width: 100%; 
 height: 100%; 
-background: url("https://i.ytimg.com/vi/72Ml4joV4iM/maxresdefault.jpg");
+background: url("https://i.imgur.com/0q4PioA.gif");
 opacity: 60%;
 background-size: 100% 110%; 
 }
 
-#nori {
+#boxtext {
 position: fixed;
-top: 53%;
-left: 83%;
-width: 16%;
-height: 50%; 
-background-position: center !important; 
-background: url("https://i.imgur.com/ukAjx3k.png"); 
-background-size: 100% 100%;  
-}
-
-#bubble {
-position: fixed;
-top: 60%;
-left: 90%;
-height: 30%;
-width: 10%;
-background: url("bubblegif.gif");
-background-size: 100% 100%; 
-opacity: 65%;
-}
-
-#bubble2 {
-position: fixed;
-top: 60%;
-left: 79%;
-height: 30%;
-width: 10%;
-background: url("bubblegif.gif");
-background-size: 100% 100%; 
-opacity: 65%;
-}
-
-#hilt {
-position: fixed; 
-top: 0%;
-left: 49%;
-height: 100%;
-width: 2%;
-background: #7B848B; 
-}
-
-#bordertop {
-position: fixed;
-top: 0%; 
-left: 0%;
-width: 100%;
-height: 2%;
-background: #7B848B; 
-color: 427065; 
-overflow: hidden; 
-padding-top:
-}
-
-#borderleft {
-position: fixed;
-top: 0%; 
-left: 0%;
-width: 1%;
-height: 100%;
-background: #7B848B; 
-}
-
-#borderright {
-position: fixed;
-top: 0%; 
-left: 99%;
-width: 1%;
-height: 100%;
-background: #7B848B; 
-}
-
-#borderbottom {
-position: fixed;
-top: 98%; 
-left: 0%;
-width: 100%;
-height: 2%;
-background: #7B848B; 
-}
-
-#tb1 {
-position: fixed;
-top: 10%;
-left: 7.25%;
-height: 85%;
-width: 35%;
-background: #000000;
-border: 3px solid #90a19e; 
-opacity: 80%;
-}
-
-
-#tb2 {
-position: fixed;
-top: 10%;
-left: 7.25%;
-height: 85%;
-width: 35%;
-background: url("https://i.imgur.com/qMnInxy.gif"); 
-opacity: 100%;
-background-size: 100% 110%; 
-border: 3px solid #90a19e; 
+top: 40%;
+left: 30%;
+height: 50%;
+width: 40%; 
+background: url("https://66.media.tumblr.com/907f8d4f5074ba10594a2a574d503055/tumblr_nrephxbV8M1qciqqno6_540.gifv");
+background-size: 100% 100%;
 }
 
 #textbox {
 position: fixed;
-top: 11%;
-left: 7.75%;
-height: 84%;
-width: 34.4%;
+top: 41%;
+left: 30.5%;
+height: 48.1%;
+width: 39%; 
+background-size: 100% 100%;
 font-family: 'Amiri', serif;
-color: #7B848B;
+color: #EDF8F0;
 overflow: auto; 
-font-size: 80%;
+font-size: 2vh;
 text-indent: 5%; 
 }
 
-#beamtext {
+#boxveil {
 position: fixed;
-top: 0%;
-left: 24%; 
-width: 2%;
-height: 100%;
-background: #7B848B;
+top: 40%;
+left: 30%;
+height: 50%;
+width: 40%; 
+background: #000000;
+opacity: 80%; 
 }
 
-#pic1 {
-position: fixed; 
-top: 10%;
-left: 60%;
-height: 40%;
-width: 12%;
-background: url("https://i.imgur.com/n98gC1F.png");
-background-size: 100% 100%; 
-border: 3px solid #90a19e; 
--webkit-box-shadow: -10px 10px 5px 0px rgba(66,112,101,1);
--moz-box-shadow: -10px 10px 5px 0px rgba(66,112,101,1);
-box-shadow: -10px 10px 5px 0px rgba(66,112,101,1);
--webkit-transition: all 2.5s ease-out;
--moz-transition: all 2.5s ease-out;
-transition: all 2.5s ease-out;
-}
-
-#pic1:hover {
-background: url("https://i.imgur.com/j3yBoIf.png");
-background-size: 100% 100%;
--webkit-transition: all 2.5s ease-out;
--moz-transition: all 2.5s ease-out;
-transition: all 2.5s ease-out;
-}
-
-#pic2 {
-position: fixed; 
-top: 10%;
-left: 86%;
-height: 40%;
-width: 12%;
-background: url("https://i.imgur.com/W6odcUJ.png");
-background-size: 100% 100%; 
-border: 3px solid #90a19e; 
--webkit-box-shadow: -10px 10px 5px 0px rgba(66,112,101,1);
--moz-box-shadow: -10px 10px 5px 0px rgba(66,112,101,1);
-box-shadow: -10px 10px 5px 0px rgba(66,112,101,1);
--webkit-transition: all 2.5s ease-out;
--moz-transition: all 2.5s ease-out;
-transition: all 2.5s ease-out;
-}
-
-#pic2:hover {
-background: url("https://i.imgur.com/on6oV6n.png");
-background-size: 100% 100%; 
--webkit-transition: all 2.5s ease-out;
--moz-transition: all 2.5s ease-out;
-transition: all 2.5s ease-out;
-}
-
-#gallery {
+#boxborder {
 position: fixed;
-top: 26%;
-left: 77%;
-height: 8%;
-width: 4%; 
-border-radius: 100%;
-border: 3px solid #90a19e;
-background: url("https://i.imgur.com/jh8mdIG.gif");
-background-size: 100% 100%; 
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+top: 39%;
+left: 29.5%;
+height: 52%;
+width: 41%;
+background: #89B4C5; 
 }
 
-#gallery:hover {
-background: url("https://i.imgur.com/Qn84YO8.gif"); 
-background-size: 100% 100%; 
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+#headerboxborder {
+position: fixed;
+top: 27%;
+left: 29.5%; 
+height: 10%;
+width: 41%; 
+background: #89B4C5;
 }
 
-#beam {
+#titleline {
+position: fixed;
+top: 15%;
+left: 28%; 
+height: 10%;
+width: 44%; 
+border-bottom: 5px solid #89B4C5;
+}
+
+#title {
+position: fixed;
+top: 20%;
+left: 28%; 
+height: 10%;
+width: 44%; 
+font-size: 5vh; 
+color: #BDDAE0;
+font-family: 'Bungee Inline', cursive;
+text-align: center; 
+line-height: 100%; 
+}
+
+#titlecover {
+position: fixed;
+top: 20%;
+left: 36.5%; 
+height: 5%;
+width: 27%; 
+background: #89B4C5;
+}
+
+#headerbox {
 position: fixed;
 top: 28%;
-left: 0%;
-height: 4%;
-width: 100%;
-background: #7B848B;
+left: 30%; 
+height: 8%;
+width: 40%; 
+background: #2D4140; 
 }
 
-#beamupper {
+#headerboxtext {
 position: fixed;
-top: 0%;
-left: 78%;
-height: 100%;
-width: 2%;
-background: #7B848B; 
-}
-
-#option1 {
-position: fixed;
-top: 62%;
-left: 48%;
-height: 7%;
-width: 3.5%; 
-background: #d0d9d4;
-border: 3px solid #427065; 
-font-family: 'Bungee Inline', cursive;
-text-align: center;
+top: 29%;
+left: 30%; 
+height: 6%;
+width: 40%; 
+font-size: 5vh; 
 color: #427065; 
+font-family: 'Bungee Inline', cursive;
+text-align: center; 
+line-height: 100%; 
 }
 
-#anh {
+#bottombeam {
+position: fixed; 
+top: 91%;
+left: 49%; 
+height: 20%;
+width: 2%; 
+background: #89B4C5;
+}
+
+#beamtopvert {
+position: fixed;
+top: 11%;
+left: 16%;
+width: 68%;
+border-top: 5px dashed #89B4C5;
+}
+
+#beamtopvert2 {
+position: fixed;
+top: 13%;
+left: 16%;
+width: 68%;
+border-top: 5px dotted #89B4C5;
+}
+
+#beamtopvert3 {
+position: fixed;
+top: 15%;
+left: 16%;
+width: 68%;
+border-top: 5px dashed #89B4C5;
+}
+
+
+#beamvert {
+position: fixed;
+top: 65%;
+left: 16%;
+width: 68%;
+border-top: 5px dotted #BDDAE0;
+}
+
+#beamvert2 {
 position: fixed;
 top: 63%;
-left: 52%;
-height: 6%;
-width: 0%;
-background: url("https://i.imgur.com/TRqQSP3.png");
-background-repeat:no-repeat !important;
+left: 16%;
+width: 68%;
+border-top: 5px dashed #BDDAE0;
+}
+
+#beamvert3 {
+position: fixed;
+top: 67%;
+left: 16%;
+width: 68%;
+border-top: 5px dashed #BDDAE0;
+}
+
+#bordertop {
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 2%;
+background: #EDF8F0;
+}
+
+#borderbottom {
+position: fixed;
+top: 98%;
+left: 0%;
+width: 100%;
+height: 2%;
+background: #EDF8F0;
+}
+
+#borderleft {
+position: fixed;
+top: 0%;
+left: 0%;
+width: 1%;
+height: 100%;
+background: #EDF8F0;
+}
+
+#borderright {
+position: fixed;
+top: 0%;
+left: 99%;
+width: 1%;
+height: 100%;
+background: #EDF8F0;
+}
+
+#piclborder {
+position: fixed; 
+top: 10%;
+left: 10%;
+width: 15%;
+height: 40%;
+background: #89B4C5;
+}
+
+#picl {
+position: fixed; 
+top: 11%;
+left: 10.5%;
+width: 14%;
+height: 38.1%; 
+}
+
+#icepicl {
+position: fixed; 
+top: 11%;
+left: 10.5%;
+width: 14%;
+height: 38.1%;
+background: url("https://i.imgur.com/U9SJ7Nv.jpg");
+background-size: 100% 100%; 
+opacity: 0%;
   -webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+-moz-transition: all 2.0s ease-out;
+transition: all 2.0s ease-out;
 }
 
-#option1:hover + #anh {
+#icepicl:hover {
+opacity: 60%;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 2.0s ease-out;
+transition: all 2.0s ease-out;
+}
+
+#picrborder {
 position: fixed;
-width: 28%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
+top: 10%;
+left: 75%;
+width: 15%;
+height: 40%;
+background: #89B4C5;
+}
+
+#picr {
+position: fixed; 
+top: 11%;
+left: 75.5%;
+width: 14%;
+height: 38.1%;
+background: url("https://i.imgur.com/EVTqbcN.png");
+background-size: 100% 100%; 
+}
+
+#icepicr {
+position: fixed; 
+top: 11%;
+left: 75.5%;
+width: 14%;
+height: 38.1%;
+background: url("https://i.imgur.com/U9SJ7Nv.jpg");
+background-size: 100% 100%; 
+opacity: 0%;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 2.0s ease-out;
+transition: all 2.0s ease-out;
+}
+
+#icepicr:hover {
+opacity: 60%;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 2.0s ease-out;
+transition: all 2.0s ease-out;
 }
 
 
-#option2 {
+#nori {
 position: fixed;
-top: 71%;
-left: 48%;
-height: 7%;
-width: 3.5%; 
-background: #d0d9d4;
-border: 3px solid #427065; 
+top: 61%;
+left: 85%;
+height: 42%;
+width: 14%;
+background: url("https://i.imgur.com/ukAjx3k.png");
+background-size: 100% 100%
+}
+
+#bubblel {
+position: fixed;
+top: 61%;
+left: 82%;
+height: 42%;
+width: 10%;
+background: url("bubblegif.gif");
+background-size: 100% 100%;
+opacity: 60%;
+}
+
+#bubbler {
+position: fixed;
+top: 61%;
+left: 90%;
+height: 42%;
+width: 10%;
+background: url("bubblegif.gif");
+background-size: 100% 100%;
+opacity: 60%;
+}
+
+#picrb1 {
+position: fixed;
+top: 50%; 
+left: 80.95%;
+width: 1.05%;
+height: 50%;
+background: #2D4140;
+}
+
+#picrb2 {
+position: fixed;
+top: 50%; 
+left: 83%;
+width: 1%;
+height: 50%;
+background: #BDDAE0;
+}
+
+#piclb1 {
+position: fixed;
+top: 50%; 
+left: 15.95%;
+width: 1.05%;
+height: 50%;
+background: #BDDAE0;
+}
+
+#piclb2 {
+position: fixed;
+top: 50%; 
+left: 18%;
+width: 1%;
+height: 50%;
+background: #2D4140;
+}
+
+#menubox1 {
+position: fixed;
+top: 91%;
+left: 1.5%;
+height: 6%;
+width: 3%;
+background: #EDF8F0;
+border: 2px solid #89B4C5;
+color: #2D4140; 
 font-family: 'Bungee Inline', cursive;
 text-align: center;
-color: #427065; 
-}
-
-#ra {
-position: fixed;
-top: 72%;
-left: 52%;
-height: 6%;
-width: 0%;
-background: url("https://i.imgur.com/RXxmkGw.png");
-background-repeat:no-repeat !important;
-  -webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#option2:hover + #ra {
-position: fixed;
-width: 22.5%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#option3 {
-position: fixed;
-top: 80%;
-left: 48%;
-height: 7%;
-width: 3.5%; 
-background: #d0d9d4;
-border: 3px solid #427065;
-font-family: 'Bungee Inline', cursive;
-text-align: center;
-color: #427065; 
-}
-
-#eni {
-position: fixed;
-top: 81%;
-left: 52%;
-height: 6%;
-width: 0%;
-background: url("https://i.imgur.com/kdYBF6g.png");
-  -webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-background-repeat:no-repeat !important;
-}
-
-#option3:hover + #eni {
-position: fixed;
-width: 24%;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-
-#option4 {
-position: fixed;
-top: 89%;
-left: 48%;
-height: 7%;
-width: 3.5%; 
-background: #d0d9d4;
-border: 3px solid #427065; 
-font-family: 'Bungee Inline', cursive;
-text-align: center;
-color: #427065; 
 }
 
 #ma {
 position: fixed;
-top: 90%;
-left: 52%;
-height: 6%;
+top: 93%;
+left: 5.05%;
+height: 3%;
 width: 0%;
-background: url("https://i.imgur.com/BOr4D9q.png");
+background-repeat:no-repeat !important;
+background: url("https://i.imgur.com/t0DRuoC.png");
   -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
-background-repeat:no-repeat !important;
 }
 
-#option4:hover + #ma {
+#menubox1:hover {
+color: #EDF8F0;
+background: #2D4140; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox1:hover + #ma {
+width: 12%;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+
+#menubox2 {
 position: fixed;
-width: 24.3%;
--webkit-transition: all 0.8s ease-out;
+top: 84%;
+left: 1.5%;
+height: 6%;
+width: 3%;
+background: #EDF8F0;
+border: 2px solid #89B4C5;
+color: #2D4140; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+}
+
+#eni {
+position: fixed;
+top: 86%;
+left: 5.05%;
+height: 3%;
+width: 0%;
+background-repeat:no-repeat !important;
+background: url("https://i.imgur.com/e6al6xm.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox2:hover {
+color: #EDF8F0;
+background: #2D4140; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox2:hover + #eni {
+width: 12%;
+  -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
 }
 
 
 
+
+#menubox3 {
+position: fixed;
+top: 77%;
+left: 1.5%;
+height: 6%;
+width: 3%;
+background: #EDF8F0;
+border: 2px solid #89B4C5;
+color: #2D4140; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+}
+
+#ra {
+position: fixed;
+top: 79%;
+left: 5.05%;
+height: 3%;
+width: 0%;
+background-repeat:no-repeat !important;
+background: url("https://i.imgur.com/7tubOVA.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox3:hover {
+color: #EDF8F0;
+background: #2D4140; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox3:hover + #ra {
+width: 11%;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox4 {
+position: fixed;
+top: 70%;
+left: 1.5%;
+height: 6%;
+width: 3%;
+background: #EDF8F0;
+border: 2px solid #89B4C5;
+color: #2D4140; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+
+#anh {
+position: fixed;
+top: 72%;
+left: 5.05%;
+height: 3%;
+width: 0%;
+background-repeat:no-repeat !important;
+background: url("https://i.imgur.com/KSMGjhk.png");
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox4:hover {
+color: #EDF8F0;
+background: #2D4140; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox4:hover + #anh {
+width: 14.2%;
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#menubox5 {
+position: fixed;
+top: 63%;
+left: 1.5%;
+height: 6%;
+width: 3%;
+background: #EDF8F0;
+border: 2px solid #89B4C5;
+color: #2D4140; 
+font-family: 'Bungee Inline', cursive;
+text-align: center;
+}
+
+#menubox5:hover {
+color: #EDF8F0;
+background: #2D4140; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
 .snowflake {
-  color: #BCCCED;
+  color: #ffffff;
   font-size: 1em;
   font-family: Arial, sans-serif;
   text-shadow: 0 0 5px #000;
 }
 
+#headerboxanh,#headerboxra,#headerboxena,#headerboxma,#headerboxreturn {
+display: none; 
+ }
+ 
+#textanh,#textra,#textena,#textma,#textreturn {
+display: none; 
+}
+
+#picl1,#picl2,#picl3,#picl4,#piclreturn {
+display: none; 
+}
+
+#picr1,#picr2,#picr3,#picr4,#picrreturn {
+display: none; 
+}
+
+i {
+color: #BDDAE0; 
+
+}
+
+u {
+color: #89B4C5; 
+}
+
+a {
+color: #BDDAE0; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+a:hover {
+color: #89B4C5; 
+  -webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+b {
+color: #2D4140; 
+}
+
+h1 {
+font-size: 3vh; 
+color: #427065; 
+font-family: 'Bungee Inline', cursive;
+text-align: left; 
+line-height: 100%; 
+}
+
+h2 {
+font-size: 3vh; 
+color: #427065; 
+font-family: 'Bungee Inline', cursive;
+text-align: center; 
+line-height: 100%
+}
+
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
 
-</style> 
-<div id="container"><div id="background"></div><div id="hilt"></div><div id="bordertop"></div><div id="borderleft"></div><div id="borderright"></div><div id="bubble"></div><div id="bubble2"></div><div id="nori"></div><div id="borderbottom"></div><div id="beamtext"></div><div id="beam"></div><div id="beamupper"></div>
-<div id="tb2"></div><div id="tb1"></div><div id="bubbles"></div>
-<div id="textbox"><h1>The Following Character...</h1><p>Is for use in the "White Sand Empire" discord roleplay. Please hit up (Somber #7586) for more information on the ongoing community and how to join. To navigate this profile, click on the numbered boxes to the right, and click on the snowflake between the pictures to access an imgur gallery for the character. The song playing in the background is "Dance With the Night Wind" by Akira Yamaoka.</p><h2>"The song isn't playing for me..."</h2><p>Yeah...That's a common issue with chrome. To fix it, click on the icon to the left of the url (It should appear either as an image of a lock, or text that says 'not secured') and then click on "site settings" at the bottom of the resulting menu. This will open a tab; scroll down until you see "sound" and change the setting from "Automatic" or "Mute" to "Allow".</p><h2>"The song is playing, but I don't want it to!"</h2><p>That's an easy fix too! Simply right click on the tab itself and then click "mute site".</p><h1><u>Overview</u></h1>
-<u>Name:</u> Karahashi Norinobu. Goes by “Nori”<br><u>Race:</u> Sukatsu<br><u>Gender:</u> Cisgender Male<br><u>Height:</u> 6'1<br><u>Eye Color:</u> Blue<br><u>Hair Color:</u> Black<br><u>Dexterity:</u> Right Hand Dominant<br><p>Karahashi Norinobu is a semi-undead assassin hailing from a region far to the east of the White Sand Empire. Having been mortally wounded by a member of his own guild, the young cryomancer had no choice but to undergo healing from a Necromancer, forever warping his body and soul and turning him into the perversion of nature he is today. While highly selfish and lacking in morality, Norinobu’s seriousness and sense of self preservation disappeared the day he was almost killed; he now views his life as “bonus time” in which he can spend doing whatever he wants, as his natural span of living ended after his fatal encounter. This leads to him being light hearted and almost too jovial in his day to day activities, which can be jarring -- and sometimes humorous -- when coupled with his particularly grave activities of choice. </p></div>
-<div id="apnhi"><h1>Appearance</h1><p>When found out in the world, Norinobu’s appearance is often hidden behind his plethora of gear and armor. Most notable is the unique helm which covers his face with a large veil of dyed blue cloth, and  silver metal visor that adorns the area around his eyes. Between this visor is a mesh of light blocking fabric, keeping his inner features out of sight while simultaneously providing shade for his own vision. Since his transformation into a Sukatsu however, the unnatural glow of his blue orbs often shines through this material, causing him to appear somewhat ghostly in nature.</p><p>Caught without his covering, his resemblance to a spirit does not fade. Nori possesses extremely sharp facial features, with a defined chin and jawline, and cheekbones that raise high, close to his slanted eye sockets and easily defined. “Angular” and “Elven” are often terms that come to mind when summarizing his face’s structure, and combined with his extremely unnatural pale skin this easily corroborates with the fact he is considered to be an undead. Despite this, he does not appear to have been affected by any rotting or deterioration; though his lips are as pale-blue as those one would find on a deceased,  his skin is smooth and extremely fair, making it obvious that he cares a great deal about his personal hygiene. Similarly, his jet black hair is also well kept, reaching just below his ears though always trimmed and styled in order to remain out of his face. </p><p>Standing at an inch over six foot tall, he possesses an athletic build, with a moderate amount of muscle fiber packed tightly against his frame, easily noticed but not extremely defined. Whenever he uses any of his magic, all the veins in his body from head to toe begin to shine with a blue aura similar to his eyes. They become extremely pronounced against his flesh, and onlookers may even see the enchanted liquid moving through them if they concentrate hard enough.<h1><img style="width: 80%; height: 50%;" src="https://i.imgur.com/MoKIlCA.png"></h1></p><h1>History</h1><p>Karahashi Norinobu was born in the kingdom of Riakoh, in a land far to the east of the White Sand Empire. Independent of the monarchy that existed within the province, Riakoh maintained with moderate prosperity for many decades, free from outside taxing while still remaining in relatively good graces with the rest of the governing land as far as trade agreements went. Unfortunately, when two larger kingdoms -- to the east and west respectfully -- went to war, their reign of peace quickly came to an end. Unsupported and unaided by any militant power, and hesitant to pick any side in the conflict, Riakoh became nothing more than a no man's land for the subsequent battles, with the kingdom's wealthy and powerful either declaring allegiance to one of the warring nations or fleeing the continent altogether. By the time the conflict was over only the poor remained, forever scarred by the countless travesties their former home played host to.</p><p>Norinobu's parents were no exception to this, and his birth added a heavy strain to their life of poverty. He was taught to steal and rob from a young age, and to fight off any who would try the same on them. The criminal arts seemed to agree with the young man, and by the time he reached adulthood he had amassed enough of a fortune to finally flee the doomed kingdom altogether. He vowed to practice his talents on a far richer clientele, though through the hard experience of life he soon learned that the contents of a man's letters were often more profitable than what could be found in his purse...If the target was selected with care. As such, he became a traveling information broker, stalking those of high profile and learning secrets so he could sell them to the highest bidder.</p><p>As his reputation and connections grew stronger, so did the stakes and dangers of his new profession. In order to hide himself in plain sight, Norinobu joined up with a troupe of traveling mummers, performing as an actor by day while his new cover allowed him to roam the continent freely and practice his shady dealings under the cover of night. As the years passed his fortune grew, and surprisingly so did his skills on the stage. He became somewhat of a minor celebrity in both the world of acting and crime, though he had perfectly kept the two separate in all but his wealth. Unfortunately, success often begets pride, and pride often begets carelessness.</p><p>He had become accustomed to a lavish lifestyle, and addicted to the amassing of gold; with this paired with his cocky attitude, he began to take jobs no matter the risk or danger, seemingly assured that no trouble would ever come to him again. After being hired to shadow a powerful military figure for two weeks, he completed the job and received his highest payment in history, though he would never manage to spend a single coin. His employer had used his information to assassinate the target, which led to another massive war between the same kingdoms that had ruined Nori's childhood. That same employer was easily caught by the authorities of the opposing side, and easier still tortured for all he knew; he revealed Norinobu's hand in the plot, and over the course of a single night the young man went from beloved actor to hated criminal and plague on society. All of his assets were seized from him, and he was sentenced to death for aiding in a conspiracy against an empire.</p><p>Though it should have been his end, fate reached out one more opportunity for Norinobu to grasp: A clan of hardened assassins known as the Chiokini. Impressed with his work, they offered him protection in exchange for his service as an information broker, to which he gladly accepted in order to keep his head. Through the years of his employment he learned the art of assassination himself, coupling his already sharp talents with a new passion for Cryomancy, taught to him by the guild leader, a powerful Necromancer. Excelling in his new career as he always had, he soon graduated from a simple unaffiliated spy to a trusted member of the order. Norinobu's bond to the Chiokini grew strong, particularly to the guildmaster and her small council. Desperate to join their ranks, he obeyed every one of their orders without question...This would lead to the second instance of his intense desires almost getting him killed.</p><p>A newer member of the Chiokini -- a human octopus hybrid known as Takosenshi Moya -- had been showing an extreme amount of promise and dedication to the organization. The only issue was by way of an old Samurai, a seemingly parental figure to the once orphaned humanoid. The Samurai greatly disapproved of assassins and criminals, and had begun to cloud his pupil's mind, begging for him to leave the Chiokini behind and fight for a more just cause. Convinced that Takosenshi's loyalties would fall further into the guild should the naysayer be silenced, the Guildmaster instructed Norinobu to assassinate him, and to keep the guild's involvement in the act a secret that their new member would never discover. Though the full fledged assassin was happy to oblige, he botched the job; Takosenshi appeared during the battle between Norinobu and the Samurai, and though the latter was successfully killed, his pupil made sure to avenge him. Takosenshi nearly obliterated Norinobu, cutting his body to ribbons and leaving him for dead before running off to escape the guild entirely.</p><p>Through sheer force of will and a large amount of luck, Norinobu managed to limp his way towards the guild headquarters, collapsing just shy of his goal. The guildmaster had grown worried and was on her way to assess the situation herself, and thankfully managed to find her subordinate laying face down in a pool of his own blood. He was too gravely injured to survive a trip to a healer, and with only minutes left to his life the Necromancer had no choice but to attempt the process of turning him into a lesser undead: a Sukatsu. The procedure was just barely a success; Norinobu had not died, and therefore he was free from being turned into an immortal -- yet weak and scarcely sentient -- familiar. He was able to retain his independent mind, as well as his own abilities, but his body was forever altered as a result of the deadly encounter.</p><p>Though relieved that her comrade had not fully passed on, the leader of the Chiokini was greatly disappointed in her subordinate's failure. Rather than cast him out of the guild -- as was customary -- she allowed Norinobu ample time to recover and get used to his new body. In those following days, her spies had managed to track Takosenshi's movements; they had learned of his new great quest, to travel to the White Sand Empire in search of a god he wished to kill by his own hands. In an attempt to recover their lost asset, as well as put distance between Norinobu and the other assassins (who were upset with his preferential treatment), she ordered him to travel the same path as his would-be murderer and attempt to make peace. Killing a foreign god would bring much infamy to the Chiokini should they be involved -- and therefore lead to more business -- and if the two could make amends, Norinobu was instructed to help Takosenshi in his quest. Should the octo-human continue to renounce the guild however, or if it did not seem as if he was strong enough for the task, Norinobu's new mission would be to kill him, to tie up loose ends and spare the guild another failure on their record.</p></div>
-<div id="racials"><h1>Racial Abilities: Sukatsu</h1><h2><u>Lesser Lichdom</u></h2><p>Nori is a Sukatsu, a slang term created from the literal translation “Sukunai fukkatsu” or “Lesser Revived”. While he was never actually killed and brought back to life, he sustained extreme mortal injuries and had to be healed via necromancy, forever altering his body and soul in a way that most healing magics do not. A Sukatsu’s abilities and bodily structure vary depending on both the magical nature of the revived and that of the Necromancer as well, and Nori’s physical makeup is attributed to the fact both he and his healer were highly attuned to ice magics. His physical appearance has scarcely changed, save for the pure white color of his skin, and unnatural blue glow of his eyes; his veins become visible against the flesh when using magic, and glow in similar hue.</p><p><b>PROS</b></p>→ Cannot be harmed by mundane poisons, toxins, or cold temperatures. Magically inflicted poison and other such diseases will still affect him, though he has a very slight resistance to those of weak nature.<br>→ Does not require oxygen, and therefore does not need to breathe. His stamina is entirely affixed to his magical strength, meaning he can and still will experience fatigue and will require rest.<br>→ Ages at an extremely slowed rate. Though he does possess a natural lifespan, it has increased almost double, allowing him to live to be around two hundred years old if he keeps himself “healthy”. Effects of old age will begin to hamper his physical abilities by the time he reaches his mid hundreds.<br>→ Though he still requires food and water (the energy is converted into the mana that powers his body) it can be any biological material that is non magical in nature. Rotten or uncooked meat, wood, or even natural ice is fair game for him to consume, though he still possesses taste buds. He may also survive around twice the amount of time as a normal person without food, but requires water just as much as anyone else.<br><p><b>CONS</b></p>→ He is partially weak to holy based magics, as he is still considered partly undead. Abilities that are typically suited to dealing with such creatures will not do more damage to his body, but will feel much more painful to him, hampering his ability to react and process information on the battlefield.<br>→ He is moderately weak to fire based magics. Though fire damage does not carry an extra effect to his body, it will deal increased physical damage and injure him more severely than normal.<br>→ Under non magical, high temperature conditions, he becomes about x1.5 faster than normal, though he loses a touch of his dexterity and precision control of his body. He “sweats”, causing his grip to slightly loosen, and his body to slide and slip more often. This can be circumvented via his magic, though it will cost more of his stamina to do so.<br><h2><u>Liquid Cooled</u></h2><p>In lieu of blood to circulate within his veins, Nori instead has a large amount of enchanted water, gifted to him during the “half revival” process by the Necromancer. In many ways, this enchanted water still acts as blood; it can be regenerated by his body, and losing a large portion of it without time to recuperate can very well end in his death. In addition however, the enchanted water offers a slew of enhancements to his abilities, synergizing with his magic in order to increase his combat potential.</p><p><b>PROS</b></p>→ Nori contains a slightly higher volume of “blood” than regular humans. This means that his body can both store and reproduce his life essence at a slightly faster rate than normal. This is mostly used for recuperating outside of combat, allowing him to get back in fighting shape at roughly half the time of a regular human (only for injuries related to blood loss). In combat however, this is not particularly useful, specifically because of the thinness of his blood.<br>→ Nori may concentrate and “freeze” specific contact points of his bloodstream. This allows him to stop himself from bleeding, rendering cuts and large lacerations incapable of draining his essence over time. This is not a perfect solution however, as it costs a small amount of his mana to upkeep, and can be circumvented by destroying the “ice clot” in the injured area.<br>→ Though it is still susceptible to magical heat in many ways, Nori’s blood is directly connected to his Cryomancy, allowing him to exert a much stronger control over its temperature and state of matter. Fire and heat magics can still affect his body as normal, though attempts to melt his “ice clots” or lower his abilities by warming him up will be much harder to do. In addition, he may use spilt blood as extra “ammunition” during his magical attacks, causing them to increase slightly in power if infused with his life essence.<br><p><b>CONS</b></p>→ As it is literally water, Nori’s blood is extremely thin. If left untreated and freely flowing, he can leak out a lethal dose of his bodily liquid in half the time of a normal human.<br><h2><u>Mana Infused</u></h2><p>The link between Nori’s revived body and his enchanted blood allows his entire physical form to be used as a medium for his magics. All of his physical parameters scale off of his magical ability, and he may expend his mana in order to increase them to certain degrees. This phenomenon carries a multitude of strengths and weaknesses.</p><p><b>PROS</b></p>→ Nori’s speed, strength, reaction time, and mental processing time are all about twice that of a mundane human being. He may momentarily sacrifice his doubled stats in all areas but one in order to increase it to four times magnification. This can only last for about fifteen minutes, and he must retain normal human stats for just as long afterwards before returning to full power.<br><p><b>CONS</b></p>→ Though Nori’s physical parameters well exceed that of a regular human, he can still find himself prone to injury or overtaxing if relying on them heavily. Extreme periods of exertion will damage his body in various ways; over-exerting his strength will damage his muscle fibers, and utilizing his speed for too long will drain a large amount of his magical stamina, causing him to become incapacitated. Using his mental processing to examine and think through large amounts of data in short timeframes will also give him horrible headaches, which may affect his cognition if exerted often without rest.<h2><u>Some Assembly Required</u></h2><p>Nori has the ability to personally remove parts of his body and maintain control of them within a small radius. While extremely freaky and unconventional, it allows him to utilize his limbs as specific tools for certain situations, though it leaves him substantially weaker during the process.</p><b><p>PROS</b></p>→ Nori has only trained this technique to work with his head and both of his arms. This technique only allows him to remove the body part without heavily damaging it, and additional magic (spells, which will be created and listed in the magic section) will be required for the limbs in question to be of any use.<br><p><b>CONS</b></p>→ Nori is still removing a limb when this occurs, meaning that bleeding can possibly occur. He must create “ice clots” on the affected area to stop the bleeding, meaning that -- while temporarily ceased -- he is still susceptible to grave injury in this state.<br>→ This can only be done if the limb is removed via Nori’s technique. Limbs or body parts removed via enemy damage or other means will be useless until he is put back together. He may put these limbs back together himself, but requires an entire day of concentration and rest to do so, making it impossible during combat.<br>→ Though his head may be removed without killing him, its destruction will effectively end his life. The rest of his body is not required to sustain his life either, save for his magically infused heart, located in his chest just as any other human.<br></div>
-<div id="equip"><h1> Equipment & Items</h1>Work in progress! Please check back later.</div>
-<div id="magic"><h1> Magic Abilities</h1>Work in progress! Please check back later.</div>
-<div id="pic1"></div><div id="pic2"></div><div id="gallery"></div>
-<div id="option1"><span class="tabs" onClick="changeNavigation ('apnhi');">I</span></div><div id="anh"></div><div id="option2"><span class="tabs" onClick="changeNavigation ('racials');">II</span></div><div id="ra"></div><div id="option3"><span class="tabs" onClick="changeNavigation ('equip');">III</span></div><div id="eni"></div><div id="option4"><span class="tabs" onClick="changeNavigation ('magic');">IV</span></div><div id="ma"></div>
+</style>
+<div id="container"><div id="background"></div><div id="bubblel"></div><div id="bubbler"></div><div id="nori"></div><div id="bordertop"></div><div id="piclb1"></div><div id="piclb2"></div><div id="picrb1"></div><div id="picrb2"></div><div id="borderbottom"></div><div id="borderleft"></div><div id="borderright"></div><div id="beamtopvert"></div>
+<div id="beamtopvert2"></div><div id="beamtopvert3"></div>
+<div id="beamvert"></div><div id="beamvert2"></div><div id="beamvert3"></div><div id="headerboxborder"></div><div id="headerbox"></div>
+<div id="headerboxtext">The Following Profile...</div>
+<div id="headerboxanh">Detailed Information.</div>
+<div id="headerboxra">Racial Abilities.</div>
+<div id="headerboxena">Norinobu's Toolkit.</div>
+<div id="headerboxma">Magical Abilities.</div>
+<div id="headerboxreturn">The Following Profile...</div>
+<div id="textanh"><h1>Appearance</h1><p>When found out in the world, Norinobu’s appearance is often hidden behind his plethora of gear and armor. Most notable is the unique helm which covers his face with a large veil of dyed blue cloth, and  silver metal visor that adorns the area around his eyes. Between this visor is a mesh of light blocking fabric, keeping his inner features out of sight while simultaneously providing shade for his own vision. Since his transformation into a Sukatsu however, the unnatural glow of his blue orbs often shines through this material, causing him to appear somewhat ghostly in nature.</p><p>Caught without his covering, his resemblance to a spirit does not fade. Nori possesses extremely sharp facial features, with a defined chin and jawline, and cheekbones that raise high, close to his slanted eye sockets and easily defined. “Angular” and “Elven” are often terms that come to mind when summarizing his face’s structure, and combined with his extremely unnatural pale skin this easily corroborates with the fact he is considered to be an undead. Despite this, he does not appear to have been affected by any rotting or deterioration; though his lips are as pale-blue as those one would find on a deceased,  his skin is smooth and extremely fair, making it obvious that he cares a great deal about his personal hygiene. Similarly, his jet black hair is also well kept, reaching just below his ears though always trimmed and styled in order to remain out of his face. </p><p>Standing at an inch over six foot tall, he possesses an athletic build, with a moderate amount of muscle fiber packed tightly against his frame, easily noticed but not extremely defined. Whenever he uses any of his magic, all the veins in his body from head to toe begin to shine with a blue aura similar to his eyes. They become extremely pronounced against his flesh, and onlookers may even see the enchanted liquid moving through them if they concentrate hard enough.<h2><img style="width: 60%; height: 80%;" src="https://s4.gifyu.com/images/e9600c8b8e3ef5b5a4a87c444821fe12.gif"></h2></p><h1>History</h1><p>Karahashi Norinobu was born in the kingdom of Riakoh, in a land far to the east of the White Sand Empire. Independent of the monarchy that existed within the province, Riakoh maintained with moderate prosperity for many decades, free from outside taxing while still remaining in relatively good graces with the rest of the governing land as far as trade agreements went. Unfortunately, when two larger kingdoms -- to the east and west respectfully -- went to war, their reign of peace quickly came to an end. Unsupported and unaided by any militant power, and hesitant to pick any side in the conflict, Riakoh became nothing more than a no man's land for the subsequent battles, with the kingdom's wealthy and powerful either declaring allegiance to one of the warring nations or fleeing the continent altogether. By the time the conflict was over only the poor remained, forever scarred by the countless travesties their former home played host to.</p><p>Norinobu's parents were no exception to this, and his birth added a heavy strain to their life of poverty. He was taught to steal and rob from a young age, and to fight off any who would try the same on them. The criminal arts seemed to agree with the young man, and by the time he reached adulthood he had amassed enough of a fortune to finally flee the doomed kingdom altogether. He vowed to practice his talents on a far richer clientele, though through the hard experience of life he soon learned that the contents of a man's letters were often more profitable than what could be found in his purse...If the target was selected with care. As such, he became a traveling information broker, stalking those of high profile and learning secrets so he could sell them to the highest bidder.</p><p>As his reputation and connections grew stronger, so did the stakes and dangers of his new profession. In order to hide himself in plain sight, Norinobu joined up with a troupe of traveling mummers, performing as an actor by day while his new cover allowed him to roam the continent freely and practice his shady dealings under the cover of night. As the years passed his fortune grew, and surprisingly so did his skills on the stage. He became somewhat of a minor celebrity in both the world of acting and crime, though he had perfectly kept the two separate in all but his wealth. Unfortunately, success often begets pride, and pride often begets carelessness.</p><p>He had become accustomed to a lavish lifestyle, and addicted to the amassing of gold; with this paired with his cocky attitude, he began to take jobs no matter the risk or danger, seemingly assured that no trouble would ever come to him again. After being hired to shadow a powerful military figure for two weeks, he completed the job and received his highest payment in history, though he would never manage to spend a single coin. His employer had used his information to assassinate the target, which led to another massive war between the same kingdoms that had ruined Nori's childhood. That same employer was easily caught by the authorities of the opposing side, and easier still tortured for all he knew; he revealed Norinobu's hand in the plot, and over the course of a single night the young man went from beloved actor to hated criminal and plague on society. All of his assets were seized from him, and he was sentenced to death for aiding in a conspiracy against an empire.</p><p>Though it should have been his end, fate reached out one more opportunity for Norinobu to grasp: A clan of hardened assassins known as the Chiokini. Impressed with his work, they offered him protection in exchange for his service as an information broker, to which he gladly accepted in order to keep his head. Through the years of his employment he learned the art of assassination himself, coupling his already sharp talents with a new passion for Cryomancy, taught to him by the guild leader, a powerful Necromancer. Excelling in his new career as he always had, he soon graduated from a simple unaffiliated spy to a trusted member of the order. Norinobu's bond to the Chiokini grew strong, particularly to the guildmaster and her small council. Desperate to join their ranks, he obeyed every one of their orders without question...This would lead to the second instance of his intense desires almost getting him killed.</p><p>A newer member of the Chiokini -- a human octopus hybrid known as Takosenshi Moya -- had been showing an extreme amount of promise and dedication to the organization. The only issue was by way of an old Samurai, a seemingly parental figure to the once orphaned humanoid. The Samurai greatly disapproved of assassins and criminals, and had begun to cloud his pupil's mind, begging for him to leave the Chiokini behind and fight for a more just cause. Convinced that Takosenshi's loyalties would fall further into the guild should the naysayer be silenced, the Guildmaster instructed Norinobu to assassinate him, and to keep the guild's involvement in the act a secret that their new member would never discover. Though the full fledged assassin was happy to oblige, he botched the job; Takosenshi appeared during the battle between Norinobu and the Samurai, and though the latter was successfully killed, his pupil made sure to avenge him. Takosenshi nearly obliterated Norinobu, cutting his body to ribbons and leaving him for dead before running off to escape the guild entirely.</p><p>Through sheer force of will and a large amount of luck, Norinobu managed to limp his way towards the guild headquarters, collapsing just shy of his goal. The guildmaster had grown worried and was on her way to assess the situation herself, and thankfully managed to find her subordinate laying face down in a pool of his own blood. He was too gravely injured to survive a trip to a healer, and with only minutes left to his life the Necromancer had no choice but to attempt the process of turning him into a lesser undead: a Sukatsu. The procedure was just barely a success; Norinobu had not died, and therefore he was free from being turned into an immortal -- yet weak and scarcely sentient -- familiar. He was able to retain his independent mind, as well as his own abilities, but his body was forever altered as a result of the deadly encounter.</p><p>Though relieved that her comrade had not fully passed on, the leader of the Chiokini was greatly disappointed in her subordinate's failure. Rather than cast him out of the guild -- as was customary -- she allowed Norinobu ample time to recover and get used to his new body. In those following days, her spies had managed to track Takosenshi's movements; they had learned of his new great quest, to travel to the White Sand Empire in search of a god he wished to kill by his own hands. In an attempt to recover their lost asset, as well as put distance between Norinobu and the other assassins (who were upset with his preferential treatment), she ordered him to travel the same path as his would-be murderer and attempt to make peace. Killing a foreign god would bring much infamy to the Chiokini should they be involved -- and therefore lead to more business -- and if the two could make amends, Norinobu was instructed to help Takosenshi in his quest. Should the octo-human continue to renounce the guild however, or if it did not seem as if he was strong enough for the task, Norinobu's new mission would be to kill him, to tie up loose ends and spare the guild another failure on their record.</p><h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/vBBJyvd.gif"></h2></div>
+<div id="textra"><h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/7Qgvnlm.gif"></h2><h2><u>Lesser Lichdom</u></h2><p>Nori is a Sukatsu, a slang term created from the literal translation “Sukunai fukkatsu” or “Lesser Revived”. While he was never actually killed and brought back to life, he sustained extreme mortal injuries and had to be healed via necromancy, forever altering his body and soul in a way that most healing magics do not. A Sukatsu’s abilities and bodily structure vary depending on both the magical nature of the revived and that of the Necromancer as well, and Nori’s physical makeup is attributed to the fact both he and his healer were highly attuned to ice magics. His physical appearance has scarcely changed, save for the pure white color of his skin, and unnatural blue glow of his eyes; his veins become visible against the flesh when using magic, and glow in similar hue.</p><p><i>PROS</i></p>→ Cannot be harmed by mundane poisons, toxins, or cold temperatures. Magically inflicted poison and other such diseases will still affect him, though he has a very slight resistance to those of weak nature.<br>→ Does not require oxygen, and therefore does not need to breathe. His stamina is entirely affixed to his magical strength, meaning he can and still will experience fatigue and will require rest.<br>→ Ages at an extremely slowed rate. Though he does possess a natural lifespan, it has increased almost double, allowing him to live to be around two hundred years old if he keeps himself “healthy”. Effects of old age will begin to hamper his physical abilities by the time he reaches his mid hundreds.<br>→ Though he still requires food and water (the energy is converted into the mana that powers his body) it can be any biological material that is non magical in nature. Rotten or uncooked meat, wood, or even natural ice is fair game for him to consume, though he still possesses taste buds. He may also survive around twice the amount of time as a normal person without food, but requires water just as much as anyone else.<br><p><i>CONS</i></p>→ He is partially weak to holy based magics, as he is still considered partly undead. Abilities that are typically suited to dealing with such creatures will not do more damage to his body, but will feel much more painful to him, hampering his ability to react and process information on the battlefield.<br>→ He is moderately weak to fire based magics. Though fire damage does not carry an extra effect to his body, it will deal increased physical damage and injure him more severely than normal.<br>→ Under non magical, high temperature conditions, he becomes about x1.5 faster than normal, though he loses a touch of his dexterity and precision control of his body. He “sweats”, causing his grip to slightly loosen, and his body to slide and slip more often. This can be circumvented via his magic, though it will cost more of his stamina to do so.<br><h2><u>Liquid Cooled</u></h2><p>In lieu of blood to circulate within his veins, Nori instead has a large amount of enchanted water, gifted to him during the “half revival” process by the Necromancer. In many ways, this enchanted water still acts as blood; it can be regenerated by his body, and losing a large portion of it without time to recuperate can very well end in his death. In addition however, the enchanted water offers a slew of enhancements to his abilities, synergizing with his magic in order to increase his combat potential.</p><p><i>PROS</i></p>→ Nori contains a slightly higher volume of “blood” than regular humans. This means that his body can both store and reproduce his life essence at a slightly faster rate than normal. This is mostly used for recuperating outside of combat, allowing him to get back in fighting shape at roughly half the time of a regular human (only for injuries related to blood loss). In combat however, this is not particularly useful, specifically because of the thinness of his blood.<br>→ Nori may concentrate and “freeze” specific contact points of his bloodstream. This allows him to stop himself from bleeding, rendering cuts and large lacerations incapable of draining his essence over time. This is not a perfect solution however, as it costs a small amount of his mana to upkeep, and can be circumvented by destroying the “ice clot” in the injured area.<br>→ Though it is still susceptible to magical heat in many ways, Nori’s blood is directly connected to his Cryomancy, allowing him to exert a much stronger control over its temperature and state of matter. Fire and heat magics can still affect his body as normal, though attempts to melt his “ice clots” or lower his abilities by warming him up will be much harder to do. In addition, he may use spilt blood as extra “ammunition” during his magical attacks, causing them to increase slightly in power if infused with his life essence.<br><p><i>CONS</i></p>→ As it is literally water, Nori’s blood is extremely thin. If left untreated and freely flowing, he can leak out a lethal dose of his bodily liquid in half the time of a normal human.<br><h2><u>Mana Infused</u></h2><p>The link between Nori’s revived body and his enchanted blood allows his entire physical form to be used as a medium for his magics. All of his physical parameters scale off of his magical ability, and he may expend his mana in order to increase them to certain degrees. This phenomenon carries a multitude of strengths and weaknesses.</p><p><i>PROS</i></p>→ Nori’s speed, strength, reaction time, and mental processing time are all about twice that of a mundane human being. He may momentarily sacrifice his doubled stats in all areas but one in order to increase it to four times magnification. This can only last for about fifteen minutes, and he must retain normal human stats for just as long afterwards before returning to full power.<br><p><i>CONS</i></p>→ Though Nori’s physical parameters well exceed that of a regular human, he can still find himself prone to injury or overtaxing if relying on them heavily. Extreme periods of exertion will damage his body in various ways; over-exerting his strength will damage his muscle fibers, and utilizing his speed for too long will drain a large amount of his magical stamina, causing him to become incapacitated. Using his mental processing to examine and think through large amounts of data in short timeframes will also give him horrible headaches, which may affect his cognition if exerted often without rest.<h2><u>Some Assembly Required</u></h2><p>Nori has the ability to personally remove parts of his body and maintain control of them within a small radius. While extremely freaky and unconventional, it allows him to utilize his limbs as specific tools for certain situations, though it leaves him substantially weaker during the process.</p><i><p>PROS</i></p>→ Nori has only trained this technique to work with his head and both of his arms. This technique only allows him to remove the body part without heavily damaging it, and additional magic (spells, which will be created and listed in the magic section) will be required for the limbs in question to be of any use.<br><p><i>CONS</i></p>→ Nori is still removing a limb when this occurs, meaning that bleeding can possibly occur. He must create “ice clots” on the affected area to stop the bleeding, meaning that -- while temporarily ceased -- he is still susceptible to grave injury in this state.<br>→ This can only be done if the limb is removed via Nori’s technique. Limbs or body parts removed via enemy damage or other means will be useless until he is put back together. He may put these limbs back together himself, but requires an entire day of concentration and rest to do so, making it impossible during combat.<br>→ Though his head may be removed without killing him, its destruction will effectively end his life. The rest of his body is not required to sustain his life either, save for his magically infused heart, located in his chest just as any other human.<br><h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/GHUdEr0.gif"></h2></div> 
+<div id="textena"><h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/S9FuWzo.gif"></h2><h2><u>Tundra Helm</u></h2><h2><img style="width: 30%; height: 45%;" src="https://i.imgur.com/GlqsASa.jpg"></h2><p>The Tundra Helm is an enchanted piece of equipment that covers Norinobu’s head in battle. It consists of various dyed blue cloth and a metallic visor coated with a black mesh material around the eyes. It has been magically augmented to increase its durability to that of a steel helmet, and also contains a few small utility upgrades as well. Nori is able to see through his own magic without visual obstruction when wearing the helm, and may also expend some of his mana to increase the zoom of his own eyes by about double that of a normal human. If visually damaging effects occur while he is utilizing this ability however, he will suffer them twice as harshly.</p><h2><u>Coldcloak</u></h2><h2><img style="width: 30%; height: 45%;" src="https://i.imgur.com/EP9JNXm.jpg"></h2><p>A specially crafted set of fur and leather armor, Coldcloak carries a multitude of enchantments that aid Norinobu in battle. Coated in a thick layer of magic, the durability of his armor is greatly increased, allowing it to take a high degree of wear and tear before beginning to damage. This will not make him impervious to harm however, as strong magical attacks and physical blows can still break through and damage him, though it will absorb some of the kinetic force and lessen his injuries to a moderate degree. In addition, it allows his magical essence to phase through the material so he may cast bodily created spells without having to remove it. If he channels magic through the suit, he may create an “Ice Field”, allowing him to make it extremely cold to the touch to outside sources, causing flesh to stick to it and lowering a person's movement speed and reaction time to a small degree while remaining in contact.</p><h2><u>Grip Tabi</u></h2><h2><img style="width: 30%; height: 45%;" src="https://i.imgur.com/urOFzxD.jpg"></h2><p>The Grip Tabi have enchanted soles, allowing Nori to run against walls and climb even the steepest obstacles as long as they are not magical in nature. He may expend mana through them in order to create ice spikes which clip directly into his magic; this will root him in place if standing on one of his constructed creations, and also allows him to slide across them much faster -- and with a greater degree of control -- than normal.</p><h2><u>Tōshō</u></h2><h2><img style="width: 40%; height: 60%;" src="https://i.imgur.com/7E3wCkU.jpg"></h2><p>Tōshō is Nori's signature weapon, forged using the essence of ice wraiths and tempered by both his and his guild master's cryomancy during its creation. A central steel pole (of two and a half feet) extends from the hilt, and is enchanted to slowly drip out magical waters when activated; this liquid is extremely susceptible to Nori's magic, allowing him an extreme amount of control. When not directly attacking with the weapon, he may change the shape or form of the frozen water around it as he pleases, as long the construct does not exceed eight feet long or four feet wide. When attacking, he may change the length of the blade at will, though it requires concentration and no other abilities may be cast during this process. While effective at slashing through most mundane materials, Tōshō's true strength is in its piercing attacks; it may stab through magical barriers and defenses as long as they are not overtly powerful or heavily reinforced. Nori may also use this weapon as a medium, allowing him to cast his spells through it as if it were an extension of his body. If a critical wound is inflicted, and the blade pierces through a target's flesh and directly contacts with the blood stream for a moderate amount of time, he may push his mana through the target and infect them with his magic, causing them to slowly freeze from the inside out.</p><h2><u>Hyōketsu</u></u></h2><h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/wx9Ot8R.jpg"></h2><p>Though mostly used for utility, Hyōketsu can still be employed as a deadly weapon. It consists of an iron handle that wraps around the fingers like a glove, connected to three individual steel claws of about ten inches in length. Each claw is enchanted, allowing them to deal a more considerable amount of slashing damage than normal, as well as jettison off of the handle as projectiles. When shooting a singular claw, it has a max range of about 30 feet, though shooting multiple decreases this by half, down to 15 feet. Magically conjured chains of mana tether from the blade to the grip when fired, and the blades can be retracted via this magical force in order to pull back impaled targets or objects, as well as pull himself towards them like a grappling hook. Heavier targets such as people or large constructs must be pulled by all claws, while small or light weight objects can be snagged with one. Nori CAN NOT pull anything he would not normally be able to carry, stopping him from using this weapon on extremely heavy targets.</p><h2><u>Hypothermic Darts</u></h2><h2><img style="width: 60%; height: 60%;" src="https://i.imgur.com/bSPGBmZ.jpg"></h2><p>Norinobu possesses modified Kunai (six inches in length) which have hollow centers and tips, allowing him to secrete some of his "blood" into the weapons to greatly increase their stopping power. Lightweight and designed for throwing, he can expel them at ranges of around 50 feet, easily penetrating light armor and unprotected flesh. If successful in striking a target, the liquid quickly flushes into their system, causing the afflicted to be momentarily stopped. All their built up momentum and acceleration will cease, meaning that -- although they are only "frozen" for a split second -- they will have to regain their speed all over again when free from the effects. This does not include momentum gained via non bodily movement, such as jumping, falling, or riding in a vehicle.  If the kunai is not removed from the body, or a target is struck with three in quick succession, their movement speed will be cut in half until the effects wear off ( less than three darts will cease effectiveness as soon as they are pulled out. If struck with three, effects will last for about five minutes).</p><h2><u>Blizzard Veils</u></h2><h2><img style="width: 30%; height: 40%;" src="https://i.imgur.com/9CHaenR.jpg"></h2><p>Blizzard Veils are Nori's personal touch on the classic smoke bomb. Housed in small wooden containers roughly the size of an apple and painted white to look like snowballs, these projectiles are filled with non hostile cryomancy. When deployed, they emit a large cloud of blowing snow and intense wind, covering a fifteen foot radius in vision hampering whiteness and bitter cold. Though effective at hiding his movements and disrupting vision in target areas, the mini snowstorms can be blown away just as a normal smoke bomb, and their weight is not well suited for range, meaning they can only be thrown at distances of about 20 feet without being broken in the process.</p></div>
+<div id="textma"><h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/1uv6IHu.gif"></h2><h2><u>Temperature control</u></h2><p> Norinobu is a Cryomancer, which allows him to control the temperature around him. He can exert this control in a radius of twenty feet around his body, dropping the temperatures to sub zero conditions and freezing non magical liquids and his own enchanted materials in a short amount of time. He may create various fields of different temperatures within his influence, but none of them may raise higher than the natural temperature in the area. In addition, he may also drop temperatures to a degree potent enough to kill unprotected beings without specific resistances or equipment to dealing with the cold; this takes a longer amount of time and concentration however.</p><h2><u>Cryo-Crystal</u></h2><p>A general defense and utility technique, Cryo-Crystal is the magically created ice that Nori can conjure into the atmosphere by expanding his mana. He is able to form constructs with this enhanced ice, typically creating walls and other basic shapes anywhere in a twenty foot radius around his body. These constructs are impervious to melting via natural heat while within his radius of control, and also boast an impressive toughness, allowing him to use them as shields and barriers against enemy attacks. He may create multiple objects at a time, though none of them can exceed a height or width of fifteen feet. When Nori moves farther than his twenty foot radius away from an existing construct, it turns to mundane ice, allowing it to melt and be destroyed as normal.</p><h2><u>Frozen Bolt</u></h2><p>Frozen Bolts are an advanced application of Nori's Cryo Crystal technique mixed with a minor energy transference spell. He begins by utilizing temperature control to convert a section of the atmosphere around him into Cryo-Crystal, specifically diamond shaped and about a foot from bottom to tip, aligned vertically with the point facing forwards. After creation, he exerts his body in a quick movement -- typically a forward punch -- using his magic to transfer and magnify his own kinetic energy into the hovering projectile. This sends it flying forwards in a straight line at impressive speeds, with a maximum range of about forty five feet from the point of creation. This projectile will continue to move until it collides with a solid object or passes out of its effective range. If the latter occurs, it will simply melt out of existence; if it manages to strike something, it will detonate on contact and cover a five foot radius in a deadly explosion of crystal shards, impaling and ripping through solid matter with ease. Nori can choose to cancel the explosive effect, causing the projectile to simply cut through matter instead, but he must decide this BEFORE firing. In addition, he may spend a single post rotation charging the spell (cannot cast any other abilities in the meantime), allowing him to fire it with a honing effect on a target he can see. This drops the spells range to thirty feet. It should also be noted that -- because this ability is technically an application of physical force -- the speed of the projectile is dependent on the current strength of the caster. This works both ways, meaning that if Nori's strength is lowered, the projectiles will move much slower.</p><h2><u>Ice Road</u></h2><p>A movement specialized application of Cryo-Crystal, Ice Roads are specifically created by Norinobu to traverse areas at high speeds, also allowing him to reach locations which he would normally not be able to. He begins by expelling a large amount of his temperature control in a focal point directly under his feet, and then permits it to expand into a target area, creating a rectangular construct in a specified direction. These roads must not grow in excess of fifteen feet in any dimension, though he may clip multiple constructs together as he moves, spending mana each time a new road is created. As soon as he passes over a section of the road’s surface area, it begins to crack and dilapidate into snow, melting into nothingness at a highly accelerated rate. These roads do not need to touch the ground, and they can move in any direction he sees fit, but can still be destroyed by incoming attacks just as his normal Cryo-Crystal. If a road is created and not traversed upon, any other being who passes over them will find it impossible to maintain their grip, and will slip and slide until falling or moving off of the construct. This can be negated by specific abilities that allow a person to remain rooted in place.</p><h2><u>Snowclone</u></h2><p>Norinobu can exercise his temperature control in an aura around his body, creating a fine outline of himself that remains in a target area as he steps out of it. When the second step of this technique is activated, a large statue of Cryo-Crystal is created, perfectly matching Nori in dimension and appearance, though in normal conditions it will look as if it were entirely carved out of fresh snow. Only one Snowclone can be created at a time, and Nori cannot leave a thirty foot radius of the construct;  if he does, it will instantly melt into a puddle of natural water. These snowclones possess two abilities, though only one can be chosen upon creation; the first is a general destructive blast, causing the statue to detonate into a ten foot radius explosion of ice shards exactly as his Frozen Bolts react upon hitting a solid object. Secondly, he may instead choose to impart the clone with a simple “command”. These commands must be basic bodily movements, and cannot take longer than five seconds to perform. The most common application of these commands are strikes with his weapons; the clone’s weapons will not carry over any special enchantments or abilities, but they will still cut and penetrate as effectively as a steel weapon of similar dimension. After the command is executed, the clone will simply melt into water. Any Snowclone that is entirely covered in Nori’s visually impairing cryomancy or equipment will appear to look EXACTLY like him, although people with abilities that can break through illusions may see past this.</p><h2><u>Hail Tempest</u></h2><p>A very basic yet highly volatile application of Norinobu’s Cryomancy, Hail Tempest is a technique which costs a large amount of mana to upkeep. It exists as a eight foot, domed radius around Nori; within this radius a powerful storm is created, shooting extremely sharp volleys of Cryo-Crystal hail down from the top of the AoE to the bottom. In addition to these nasty projectiles -- which can cut through flesh and light armor with ease -- vision impairing snow flutters in a windy tempest, causing disorientation and obstruction vision from within. This snow can be blown away by powerful forces, and the hail can be destroyed by opposing attacks, but the AoE will remain until Nori ceases to pump mana into the created spell. It should be noted that this is HIGHLY taxing, and cannot be upkept for a large amount of time (2 rotation limit, with a 3 rotation cooldown immediately afterwards).</p><h2><u>Rising Frost</u></h2><p>To perform this technique, Nori must drop to one knee and press both of his palms flat against whatever ground he is standing upon. Rising Frost begins by channeling large amounts of Temperature control in a circular twenty foot radius around himself, creating a fog-like veil of cold air which rises upwards to a maximum height of fifteen feet tall. Though this fog is thin and only mildly impairs vision, Nori remains connected to its entirety as long as he remains still and concentrates. This fog will proceed to act as a sensory aid to him for the duration of the spell, and any physical objects that move within this radius will be known to him, similar to echolocation. It takes an entire rotation to be created at full size, and immediately dispels if Nori makes any movements; it has a maximum uptime of three rotations, with a three rotation cooldown immediately afterwards.</p><h2><u>Glass Spider</u></h2><p>When Nori utilizes his “Some Assembly Required” racial in order to remove his head, he may create what is called the “Glass Spider”. This is a Cryo-Crystal attachment construct which creates a large spider-like body and eight long, sharpened legs that connect to his removed appendage. Though this spider may only move at half of Nori’s regular speed and travel a maximum distance of thirty feet away from his body, he is able to see through his eyes while the spell is ongoing. The spider may stick to walls and other non magical constructs, though it does little else, meaning this is mostly a party trick if not for minor surveillance and espionage. If Nori’s head passes out of the effective Radius of this spell, the spider body crumbles into dust, and his head is temporarily converted into a white mist that shoots directly back to his body and reforms fully attached.</p><h2><u>Amputated Whirlwind</u></h2><p>When Nori utilizes his “Some Assembly Required” racial in order to remove one of his limbs, he may create what is known as the “Amputated Whirlwind”. This is a Cryo-Crystal attachment construct which creates a circular saw blade of five feet perpendicular to where his shoulder would connect, and a set of four ice claws, each stemming from one of his knuckles and reaching down about six inches. Though Nori has no specific control of the muscles in his arm after casting this spell, he may telekinetically move the limb around himself up to fifteen feet away in any direction. He may choose to swipe the arm like a bladed weapon, utilizing the claws, or spin it around violently, cutting through whatever he may reach with the saw blade on the amputated section of the arm. Only one limb spell (including Glass Spider, both cannot be executed at once) can be active at a time, meaning he cannot do this to both of his arms. If the arm leaves the range of his telekinetic control, it will simply fall to the ground lifeless, and will remain there until Nori can reattach it.</p>
+<h2><img style="width: 40%; height: 40%;" src="https://i.imgur.com/stR6g5t.gif"></h2></div>
+<div id="textreturn"><p>Is for use in the "White Sand Empire" discord roleplay. Please hit up (Somber #7586) for more information on the ongoing community and how to join. To navigate this profile, click on the numbered boxes to the left, and click on the image of Nori to the right to access an imgur gallery for the character. The song playing in the background is "Dance With the Night Wind" by Akira Yamaoka.<i></p>(Scroll down for source links to all images and gifs!)</i><h1>"The song isn't playing for me..."</h1><p>Yeah...That's a common issue with chrome. To fix it, click on the icon to the left of the url (It should appear either as an image of a lock, or text that says 'not secured') and then click on "site settings" at the bottom of the resulting menu. This will open a tab; scroll down until you see "sound" and change the setting from "Automatic" or "Mute" to "Allow".</p><h1>"The song is playing, but I don't want it to!"</h1><p>That's an easy fix too! Simply right click on the tab itself and then click "mute site".</p><h2><u>Overview</u></h2><u>Name:</u> Karahashi Norinobu. Goes by “Nori”<br><u>Race:</u> Sukatsu<br><u>Gender:</u> Cisgender Male<br><u>Height:</u> 6'1<br><u>Eye Color:</u> Blue<br><u>Hair Color:</u> Black<br><u>Dexterity:</u> Right Hand Dominant<br><br><p>Karahashi Norinobu is a semi-undead assassin hailing from a region far to the east of the White Sand Empire. Having been mortally wounded by a member of his own guild, the young cryomancer had no choice but to undergo healing from a Necromancer, forever warping his body and soul and turning him into the perversion of nature he is today. While highly selfish and lacking in morality, Norinobu’s seriousness and sense of self preservation disappeared the day he was almost killed; he now views his life as “bonus time” in which he can spend doing whatever he wants, as his natural span of living ended after his fatal encounter. This leads to him being light hearted and almost too jovial in his day to day activities, which can be jarring -- and sometimes humorous -- when coupled with his particularly grave activities of choice.</p><h2><u>Image & Gif Sources</u></h2><p>As it should be pretty obvious to see, a lot of the artwork and various tools used in this profile are not my own. I want to start by thanking all the extremely talented people who have created the things I am selfishly using, and also note that some (though not many) of these sources have been edited by me to a small degree, typically just to change colors and minor things like that. The character I use for my faceclaim is known as "Mikazuki Munechika" from the anime "Touken Ranbu", as are the gifs used on various tabs. There are two other images I use that are NOT this faceclaim, one being the picture at the bottom right of the profile. This is a fan art drawing of a Shinobi Susano SMITE skin by WOLFDOGART, I'll be sure to link the original post below. In addition, the pictures used on the "equipment" tab are concept art of a Lin Kuei in Mortal Kombat X, drawn by Francis Tneh (a link to this will also be posted below). A majority of my other sources were found on image sites, and therefore I do NOT have the proper names to give credit to. I will simply add links to where I got them in hopes their artists will be referenced there in the future, but if you see something you know the source from feel free to let me know! I'd love to give the artist credit, or even take off the image if they're not comfortable with it.</p><h2><u>Misc. Art</u></h2><a href="https://www.retronator.com/post/123999064462/pixeljoint-top-10-pixel-art-april-2015" target="_blank">Textbox Gif</a><br><a href="https://imgur.com/gallery/7ZFb4" target="_blank">Background Gif</a><br><a href="https://www.vecteezy.com/vector-art/210025-ice-texture-background" target="_blank">Ice Overlay On Picture Hover</a><br><a href="http://getyourimage.club/resize-12-may.html" target="_blank">Bubble Gif Behind Norinobu Cutout</a><h2><u>Character Art</u></h2><a href="https://twitter.com/wolfdawgart/status/1105663052349878273" target="_blank">Shinobi Susano SMITE Skin Concept by WOLFDOGART</a><br><a href="https://chan.sankakucomplex.com/post/show/20665362" target="_blank">Landing Page Left Picture</a><br><a href="https://chan.sankakucomplex.com/post/show/20609830" target="_blank">Landing Page Right Picture</a><br><a href="https://www.pinterest.ca/pin/779404279249369178/" target="_blank">Appearance & History Page Left Picture</a><br><a href="https://chan.sankakucomplex.com/post/show/20540824" target="_blank">Appearance & History Page Right Picture</a><br><a href="https://www.pinterest.ca/pin/752030837753496621/" target="_blank">Racial Abilities Left Picture</a><br><a href="https://chan.sankakucomplex.com/post/show/20556084" target="_blank">Racial Abilities Right Picture</a><br><a href="https://www.reddit.com/r/ImaginaryNinjas/comments/7n9j7u/mortal_kombat_x_character_concept_art_lin_kuei/" target="_blank">Equipment & Items Left & Right Pictures</a><br><a href="https://chan.sankakucomplex.com/post/show/19688936" target="_blank">Magical Abilities Left Picture</a><br><a href="https://www.pinterest.ca/pin/134122895131269728/" target="_blank">Magical Abilities Right Picture</a><br><a href="https://hoozvki.tumblr.com/post/164105962258/the-rarest-of-rare-swords-in-all-of-history-its" target="_blank">ALL Character Gifs</a><h2><u>Equipment Art</u></h2><a href="https://twitter.com/wolfdawgart/status/1105663052349878273" target="_blank">Tundra Helm & Coldcloak</a><br><a href="https://leagueoflegends.fandom.com/de/wiki/Ninja-Tabi" target="_blank">Grip Tabi</a><br><a href="https://www.artstation.com/artwork/3omGG2" target="_blank">Tōshō</a><br><a href="https://www.amazon.ca/Cybergoth-Wolverine-Cosplay-Weapon-Blades/dp/B06Y128ZR1" target="_blank">Hyōketsu</a><br><a href="https://www.artstation.com/artwork/k4l0mz" target="_blank">Hypothermic Darts</a><br><a href="https://assassinscreed.fandom.com/wiki/Bomb" target="_blank">Blizzard Veils</a></div>
+<div id="boxborder"></div><div id="boxtext"></div><div id="boxveil"></div><div id="bottombeam"></div><div id="piclborder"></div><div id="picrborder"></div>
+<div id="menubox1"><span class="tabs" onClick="changeNavigation ('textma'); changeNavigation4 ('headerboxma'); changeNavigation2 ('picl4'); changeNavigation3 ('picr4');">IV</span></div>
+<div id="ma"></div>
+<div id="menubox2"><span class="tabs" onClick="changeNavigation ('textena'); changeNavigation4 ('headerboxena'); changeNavigation2 ('picl3'); changeNavigation3 ('picr3');">III</span></div>
+<div id="eni"></div>
+<div id="menubox3"><span class="tabs" onClick="changeNavigation ('textra'); changeNavigation4 ('headerboxra'); changeNavigation2 ('picl2'); changeNavigation3 ('picr2');">II</span></div>
+<div id="ra"></div>
+<div id="menubox4"><span class="tabs" onClick="changeNavigation ('textanh'); changeNavigation4 ('headerboxanh'); changeNavigation2 ('picl1'); changeNavigation3 ('picr1');">I</span></div>
+<div id="anh"></div>
+<div id="menubox5"><span class="tabs" onClick="changeNavigation ('textreturn'); changeNavigation4 ('headerboxreturn'); changeNavigation2 ('piclreturn'); changeNavigation3 ('picrreturn');">↻</span></div>
+<div id="picl"><img style="width:100%;height:100%;" src="https://i.imgur.com/8o9WJtw.png"></div>
+<div id="picl1"><img style="width:100%;height:100%;" src="https://i.imgur.com/un95VO6.png"></div>
+<div id="picl2"><img style="width:100%;height:100%;" src="https://i.imgur.com/XyT9SXi.png"></div>
+<div id="picl3"><img style="width:100%;height:100%;" src="https://i.imgur.com/99wYgWj.png"></div>
+<div id="picl4"><img style="width:100%;height:100%;" src="https://i.imgur.com/iGTPSev.png"></div>
+<div id="piclreturn"><img style="width:100%;height:100%;" src="https://i.imgur.com/mOOwvoJ.png"></div>
+<div id="picr1"><img style="width:100%;height:100%;" src="https://i.imgur.com/V2zUkQt.png"></div>
+<div id="picr2"><img style="width:100%;height:100%;" src="https://i.imgur.com/4ixG6js.png"></div>
+<div id="picr3"><img style="width:100%;height:100%;" src="https://i.imgur.com/awjUyO4.png"></div>
+<div id="picr4"><img style="width:100%;height:100%;" src="https://i.imgur.com/Z1HbVMZ.png"></div>
+<div id="picrreturn"><img style="width:100%;height:100%;" src="https://i.imgur.com/lz0fPt6.png"></div>
+<div id="icepicl"></div>
+<div id="picr"></div>
+<div id="icepicr"></div><div id="titleline"></div><div id="titlecover"></div><div id="title">The Frozen Sukatsu</div>
+<div id="textbox"><p>Is for use in the "White Sand Empire" discord roleplay. Please hit up (Somber #7586) for more information on the ongoing community and how to join. To navigate this profile, click on the numbered boxes to the left, and click on the image of Nori to the right to access an imgur gallery for the character. The song playing in the background is "Dance With the Night Wind" by Akira Yamaoka.<i></p>(Scroll down for source links to all images and gifs!)</i><h1>"The song isn't playing for me..."</h1><p>Yeah...That's a common issue with chrome. To fix it, click on the icon to the left of the url (It should appear either as an image of a lock, or text that says 'not secured') and then click on "site settings" at the bottom of the resulting menu. This will open a tab; scroll down until you see "sound" and change the setting from "Automatic" or "Mute" to "Allow".</p><h1>"The song is playing, but I don't want it to!"</h1><p>That's an easy fix too! Simply right click on the tab itself and then click "mute site".</p><h2><u>Overview</u></h2><u>Name:</u> Karahashi Norinobu. Goes by “Nori”<br><u>Race:</u> Sukatsu<br><u>Gender:</u> Cisgender Male<br><u>Height:</u> 6'1<br><u>Eye Color:</u> Blue<br><u>Hair Color:</u> Black<br><u>Dexterity:</u> Right Hand Dominant<br><br><p>Karahashi Norinobu is a semi-undead assassin hailing from a region far to the east of the White Sand Empire. Having been mortally wounded by a member of his own guild, the young cryomancer had no choice but to undergo healing from a Necromancer, forever warping his body and soul and turning him into the perversion of nature he is today. While highly selfish and lacking in morality, Norinobu’s seriousness and sense of self preservation disappeared the day he was almost killed; he now views his life as “bonus time” in which he can spend doing whatever he wants, as his natural span of living ended after his fatal encounter. This leads to him being light hearted and almost too jovial in his day to day activities, which can be jarring -- and sometimes humorous -- when coupled with his particularly grave activities of choice.</p><h2><u>Image & Gif Sources</u></h2><p>As it should be pretty obvious to see, a lot of the artwork and various tools used in this profile are not my own. I want to start by thanking all the extremely talented people who have created the things I am selfishly using, and also note that some (though not many) of these sources have been edited by me to a small degree, typically just to change colors and minor things like that. The character I use for my faceclaim is known as "Mikazuki Munechika" from the anime "Touken Ranbu", as are the gifs used on various tabs. There are two other images I use that are NOT this faceclaim, one being the picture at the bottom right of the profile. This is a fan art drawing of a Shinobi Susano SMITE skin by WOLFDOGART, I'll be sure to link the original post below. In addition, the pictures used on the "equipment" tab are concept art of a Lin Kuei in Mortal Kombat X, drawn by Francis Tneh (a link to this will also be posted below). A majority of my other sources were found on image sites, and therefore I do NOT have the proper names to give credit to. I will simply add links to where I got them in hopes their artists will be referenced there in the future, but if you see something you know the source from feel free to let me know! I'd love to give the artist credit, or even take off the image if they're not comfortable with it.</p><h2><u>Misc. Art</u></h2><a href="https://www.retronator.com/post/123999064462/pixeljoint-top-10-pixel-art-april-2015" target="_blank">Textbox Gif</a><br><a href="https://imgur.com/gallery/7ZFb4" target="_blank">Background Gif</a><br><a href="https://www.vecteezy.com/vector-art/210025-ice-texture-background" target="_blank">Ice Overlay On Picture Hover</a><br><a href="http://getyourimage.club/resize-12-may.html" target="_blank">Bubble Gif Behind Norinobu Cutout</a><h2><u>Character Art</u></h2><a href="https://twitter.com/wolfdawgart/status/1105663052349878273" target="_blank">Shinobi Susano SMITE Skin Concept by WOLFDOGART</a><br><a href="https://chan.sankakucomplex.com/post/show/20665362" target="_blank">Landing Page Left Picture</a><br><a href="https://chan.sankakucomplex.com/post/show/20609830" target="_blank">Landing Page Right Picture</a><br><a href="https://www.pinterest.ca/pin/779404279249369178/" target="_blank">Appearance & History Page Left Picture</a><br><a href="https://chan.sankakucomplex.com/post/show/20540824" target="_blank">Appearance & History Page Right Picture</a><br><a href="https://www.pinterest.ca/pin/752030837753496621/" target="_blank">Racial Abilities Left Picture</a><br><a href="https://chan.sankakucomplex.com/post/show/20556084" target="_blank">Racial Abilities Right Picture</a><br><a href="https://www.reddit.com/r/ImaginaryNinjas/comments/7n9j7u/mortal_kombat_x_character_concept_art_lin_kuei/" target="_blank">Equipment & Items Left & Right Pictures</a><br><a href="https://chan.sankakucomplex.com/post/show/19688936" target="_blank">Magical Abilities Left Picture</a><br><a href="https://www.pinterest.ca/pin/134122895131269728/" target="_blank">Magical Abilities Right Picture</a><br><a href="https://hoozvki.tumblr.com/post/164105962258/the-rarest-of-rare-swords-in-all-of-history-its" target="_blank">ALL Character Gifs</a><h2><u>Equipment Art</u></h2><a href="https://twitter.com/wolfdawgart/status/1105663052349878273" target="_blank">Tundra Helm & Coldcloak</a><br><a href="https://leagueoflegends.fandom.com/de/wiki/Ninja-Tabi" target="_blank">Grip Tabi</a><br><a href="https://www.artstation.com/artwork/3omGG2" target="_blank">Tōshō</a><br><a href="https://www.amazon.ca/Cybergoth-Wolverine-Cosplay-Weapon-Blades/dp/B06Y128ZR1" target="_blank">Hyōketsu</a><br><a href="https://www.artstation.com/artwork/k4l0mz" target="_blank">Hypothermic Darts</a><br><a href="https://assassinscreed.fandom.com/wiki/Bomb" target="_blank">Blizzard Veils</a></div>
 </div>
 <div class="snowflakes" aria-hidden="true">
   <div class="snowflake">
@@ -480,4 +727,5 @@ transition: all 0.8s ease-out;
 </div>
 <style type="text/css">* {cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1162.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1162.png), auto !important;}</style>
 <embed style="height: 0%; width: 0%;"src="noritheme.mp3" autostart="true" loop="true">
+</html>
 </html>
